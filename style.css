@@ -1,0 +1,67 @@
+body{
+    background-color:antiquewhite;
+}
+.one{
+    text-align: center;
+    color: red;
+}
+.one:hover{
+    color: black;
+}
+footer{
+
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
+.two,.googlemap,.products,.founder,header{
+    text-align: center;
+}
+nav{
+    text-align: center;
+    padding: 10px;
+    li{
+        display: inline;
+        cursor: pointer;
+        margin-right: 10px;
+        a{
+            padding: 10px;
+        }
+    }
+    li:hover{
+        background-color: black;
+        a{
+            color: white;
+        }
+    }
+    ul{
+        display: inline;
+    }
+}
+.products{
+    .box{
+        margin: 20px;
+        display: inline-block;
+        border-color: black;
+        border-width: 2px;
+        border-style: solid;
+        width: 400px;
+    }
+    .box:hover{
+        background-color: black ;
+        color: whitesmoke;
+    }
+}
+hr{
+    color: black;
+    border-style: dashed;
+}
+.feedback{
+    padding: 100px;
+}
+.searchbox{
+    padding-right: 200px;
+}
+.time{
+    padding: 30px;
+}
